@@ -1,19 +1,24 @@
 # Arch-install-script
-A set of instll scrips for arch linux. to make installing fast and fun.
+A set of install scripts for Arch Linux. To make installing fast and fun.
 
-run all three as root or sudo in this order
+Run all three as root or sudo in this order.
 
 # run 
 sudo ./strap-in        
 
-##(this is full auto. just make sure that the partition that you want arch installed to is mounted at /mnt)
+##(this is full auto. just make sure that the partition that you want Arch installed to is mounted at /mnt)
+
 # then
 sudo arch-chroot /mnt
+
+##(Make sure to do this before running install-me it will fail if you don't)
+
 # then
 sudo ./install-me     
 
 ##(but first open this script, search for and change all entries of "eli" to your username. then save & run it.)
 ##(when this is finnished vanilla arch is installed.
+
 # then run
 sudo ./arch1        
 
