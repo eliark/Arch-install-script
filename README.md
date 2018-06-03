@@ -9,10 +9,12 @@ sudo ./strap-in
 ##(this is full auto. just make sure that the partition that you want arch installed to is mounted at /mnt)
 
 # then
-sudo ./install-me      ## (but first open this script, search for and change all entries of "eli" to your username. then save & run it.)
+sudo ./install-me     
+##(but first open this script, search for and change all entries of "eli" to your username. then save & run it.)
 
 # then run
-sudo ./arch1           ## (this gives you the ability to customize your arch the way you want it. explore, and enjoy.)
+sudo ./arch1        
+##(this gives you the ability to customize your arch the way you want it. explore, and enjoy.)
 
 
 # if they will not run try this
